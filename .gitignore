@@ -4,3 +4,5 @@
 flask_bootcamp/sql_databases_with_flask/flask_and_databases/__pycache__
 flask_bootcamp/sql_databases_with_flask/flask_migrate/__pycache__
 flask_bootcamp/sql_databases_with_flask/flask_migrate/migrations
+flask_bootcamp/sql_databases_with_flask/flask_relationships/__pycache__
+flask_bootcamp/sql_databases_with_flask/flask_relationships/migrations
