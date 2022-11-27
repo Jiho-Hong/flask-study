@@ -1,1 +1,4 @@
 *.DS_Store
+*.sqlite
+
+flask_bootcamp/sql_databases_with_flask/__pycache__
