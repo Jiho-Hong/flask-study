@@ -32,7 +32,7 @@ def index():
         flash(f"You just changed your breed to: {session['breed']}")
         return redirect(url_for("index"))
 
-    return render_template('forms_and_flash_project_home.html', form=form)
+    return render_template('exercise_home.html', form=form)
 
 
 if __name__ == '__main__':
