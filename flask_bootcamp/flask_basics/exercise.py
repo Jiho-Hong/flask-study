@@ -6,10 +6,10 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Welcome Page
-    return "<h1>Go to /puppy_latin_name/name to see your name in puppy latin!</h1>"
+    return "<h1>Welcome! Go to /puppy_latin/name to see your name in puppy latin!</h1>"
 
 
-@app.route('/puppy_latin_name/<name>')
+@app.route('/puppy_latin/<name>')
 def puppylatin(name):
     # Puppy Latin the name that comes in!
     pupname = ''
