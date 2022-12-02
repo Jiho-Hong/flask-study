@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Connecting to a template (html file)
-    return render_template('basic.html')
+    return render_template('basic_template.html')
 
 
 if __name__ == '__main__':

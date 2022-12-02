@@ -5,14 +5,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('template_form_index.html')
+    return render_template('form_example_index.html')
 
 # This page will have the sign up form
 
 
 @app.route('/signup_form')
 def signup_form():
-    return render_template('template_form_sign_up.html')
+    return render_template('form_example_sign_up.html')
 
 # This page will be the page after the form
 
@@ -21,12 +21,12 @@ def signup_form():
 def thank_you():
     first = request.args.get('first')
     last = request.args.get('last')
-    return render_template('template_form_thankyou.html', first=first, last=last)
+    return render_template('form_example_thankyou.html', first=first, last=last)
 
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('template_form_404.html'), 404
+    return render_template('form_example_404.html'), 404
 
 
 if __name__ == '__main__':
